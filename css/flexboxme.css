@@ -1,0 +1,130 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.img {
+  height: 300px;
+  width: 350px;
+}
+.card {
+  height: 450px;
+  width: 300px;
+  background-color: rgb(217, 225, 231);
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  border: solid rgb(241, 241, 10);
+}
+.cardimg {
+  height: 150px;
+  width: 200px;
+  border-radius: 20px;
+}
+.cardbtn {
+  padding: 20px;
+  color: rgb(92, 52, 148);
+  background-color: rgb(241, 241, 10);
+}
+.text {
+  font-size: 70px;
+  color: rgb(245, 191, 17);
+  font-weight: 300;
+  font-family: fantasy;
+  text-align: center;
+}
+.nimg {
+  height: 150px;
+  width: 150px;
+  border: 2px solid rgb(241, 241, 10);
+  border-radius: 150px;
+}
+
+.footer-bg {
+  background-color: rgb(138, 139, 140);
+  background-size: cover;
+}
+.texts {
+  color: white;
+  font-size: 25px;
+}
+.flexboxme {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.text2 {
+  color: white;
+}
+.img2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+.text3 {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.section-bg {
+  background-color: white;
+  border-radius: 3px;
+}
+.color {
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+}
+.img5 {
+  height: 400px;
+  width: 800px;
+  border-radius: 4px;
+}
+.text7 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.sect-bg {
+  background-color: white;
+  background-size: contain;
+  height: 200px;
+  border-radius: 4px;
+}
+.img7 {
+  width: 300px;
+  height: 200px;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+
+  .img9 {
+    width: 800px;
+  }
+
+@media screen and (max-width: 768px) {
+  .flexboxyou {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 400px;
+  }
+
+  .img9 {
+    width: 400px;
+  }
+}
+.img10{
+  transition: height 2s, width 5s;
+}
+.img10:hover{
+  height: 180px;
+  width: 220px;
+}
+
